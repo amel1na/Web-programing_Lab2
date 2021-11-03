@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиці</title>
+    <style> 
+      table, th, td {
+        margin-bottom: 50px;
+        border: 1.5px solid black;
+        border-collapse: collapse;
+      }
+      td {
+        vertical-align: top;
+      }
+    </style>
+</head>
+<body>
+    <table border=2 align="center">
+        <caption><strong>Перелік лабораторних робіт</strong></caption>
+        <tr>
+            <td align="center"><strong>№</strong></td>
+            <td align="center"><strong>Тема</strong></td>
+        </tr>
+        <tr>
+            <td>Лабораторна робота №1</td>
+            <td>Створення HTML- документа, із використанням тегів оформлення тексту</td>
+        </tr>
+        <tr>
+            <td>Лабораторна робота №2</td>
+            <td>Навчитися вбудовувати таблиці у HTML- сторінки</td>
+        </tr>
+        <tr>
+            <td>Індивідуальне завдання</td>
+            <td>Верстка односторінкового сайту с формою реєстрації користувачів</td>
+        </tr>
+    </table>
+
+    <table border=2 align="center">
+        <tr>
+            <td rowspan=4>Повідомлення</td>
+            <td colspan=5>
+                Отримувач платежу: СП УМЗ<br>
+                Рахунок отримувача: 260074125<br>
+                Код отримувача: 14333937<br>
+                Установа банку "Аваль" в м.Києві МФО 3003335<br><br>
+                АБОНЕМЕНТ: Іванов Андрій Олексійович
+            </td>
+        </tr>
+        <tr align="center">
+            <td>Вид<br>платежу</td>
+            <td>Особистий<br>рахунок</td>
+            <td>Номер<br>рахунку-<br>фактури</td>
+            <td>Номер<br>телефону</td>
+            <td>Сума<br>грн</td>
+        </tr>
+        <tr align="center">
+            <td>01</td>
+            <td>1.308278</td>
+            <td>G100148253</td>
+            <td>80505803306</td>
+            <td>147</td>
+        </tr>
+        <tr>
+            <td colspan=5>
+                Підпис платника:_________ Дата _______/_______/____
+                <p></p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
